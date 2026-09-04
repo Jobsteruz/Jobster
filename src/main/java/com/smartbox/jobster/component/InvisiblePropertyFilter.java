@@ -1,0 +1,34 @@
+package com.smartbox.jobster.component;
+
+import io.jmix.flowui.component.propertyfilter.PropertyFilter;
+import lombok.Setter;
+
+@Setter
+public class InvisiblePropertyFilter<V> extends PropertyFilter<V> {
+
+    protected V defaultValue;
+
+    @Override
+    public boolean isConditionModificationDelegated() {
+        // Реализация не публикуется: коммерческая тайна.
+        throw new UnsupportedOperationException("Implementation not published");
+    }
+
+    @Override
+    public boolean isVisible() {
+        // Реализация не публикуется: коммерческая тайна.
+        throw new UnsupportedOperationException("Implementation not published");
+    }
+
+    @Override
+    public V getEmptyValue() {
+        // Реализация не публикуется: коммерческая тайна.
+        throw new UnsupportedOperationException("Implementation not published");
+    }
+
+    @Override
+    public void clear() {
+        // Реализация не публикуется: коммерческая тайна.
+        throw new UnsupportedOperationException("Implementation not published");
+    }
+}

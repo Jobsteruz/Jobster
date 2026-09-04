@@ -1,0 +1,14 @@
+*.properties
+*-credentials.json
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jks
+.gradle/
+build/
+.idea/
+.vscode/
+node_modules/
+*.log

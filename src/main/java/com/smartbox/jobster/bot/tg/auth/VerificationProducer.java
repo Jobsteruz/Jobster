@@ -1,0 +1,43 @@
+package com.smartbox.jobster.bot.tg.auth;
+
+import com.pengrad.telegrambot.model.request.Keyboard;
+import com.pengrad.telegrambot.model.request.KeyboardButton;
+import com.pengrad.telegrambot.model.request.ReplyKeyboardMarkup;
+import com.smartbox.jobster.bot.tg.AbstractBotObject;
+import com.smartbox.jobster.bot.tg.BotContext;
+import com.smartbox.jobster.bot.tg.Producer;
+import com.smartbox.jobster.entity.ref.SettingType;
+import com.smartbox.jobster.entity.tg.Format;
+import com.smartbox.jobster.entity.tg.LoginType;
+import com.smartbox.jobster.entity.tg.TgUserState;
+
+/**
+ * @author Jobster team
+ * Since: 5/7/2024 4:00 PM
+ */
+public class VerificationProducer extends AbstractBotObject implements Producer {
+
+    LoginType loginType = null;
+
+    public VerificationProducer(BotContext botContext) {
+        // Реализация не публикуется: коммерческая тайна.
+        throw new UnsupportedOperationException("Implementation not published");
+    }
+
+    public VerificationProducer(BotContext botContext, LoginType loginType) {
+        // Реализация не публикуется: коммерческая тайна.
+        throw new UnsupportedOperationException("Implementation not published");
+    }
+
+    @Override
+    public Object produce() {
+        // Реализация не публикуется: коммерческая тайна.
+        throw new UnsupportedOperationException("Implementation not published");
+    }
+
+    @Override
+    public Keyboard getKeyboard() {
+        // Реализация не публикуется: коммерческая тайна.
+        throw new UnsupportedOperationException("Implementation not published");
+    }
+}
